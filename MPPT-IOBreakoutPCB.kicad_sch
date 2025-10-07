@@ -893,7 +893,7 @@
 		)
 		(uuid "61d54061-da8f-4188-9e9e-f178fe117380")
 	)
-	(label "CAN_H-in"
+	(label "CAN_H-out"
 		(at 95.25 46.99 180)
 		(effects
 			(font
@@ -903,7 +903,7 @@
 		)
 		(uuid "75273ddd-62f4-45a0-bc11-946f1f9e28c6")
 	)
-	(label "CAN_L-in"
+	(label "CAN_L-out"
 		(at 95.25 49.53 180)
 		(effects
 			(font
