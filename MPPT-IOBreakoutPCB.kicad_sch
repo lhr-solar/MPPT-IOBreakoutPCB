@@ -1125,7 +1125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_Connectors:Molex_Microfit3.0_02x03_6-Pin-Vertical-PCB-Receptacle_447690601"
+		(property "Footprint" "footprints:CONN_SD-44764-001_06_MOL"
 			(at 73.66 72.39 0)
 			(effects
 				(font
