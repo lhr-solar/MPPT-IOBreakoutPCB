@@ -688,28 +688,20 @@
 		)
 	)
 	(no_connect
-		(at 59.69 39.37)
-		(uuid "27ce3b75-05cc-4426-a2d8-8356f5e51887")
+		(at 59.69 52.07)
+		(uuid "1402627d-4536-424a-83af-e101890ac4c5")
 	)
 	(no_connect
-		(at 59.69 46.99)
-		(uuid "2dc0ae0c-e525-449f-a08f-aad3bc9f5f6c")
-	)
-	(no_connect
-		(at 102.87 41.91)
-		(uuid "402a5654-69e5-4cb8-b521-ee32286a09aa")
-	)
-	(no_connect
-		(at 102.87 39.37)
-		(uuid "a6bd6359-8088-46c0-9c01-0af0d0f42b5d")
-	)
-	(no_connect
-		(at 102.87 46.99)
-		(uuid "aaca0238-9288-4ca1-9105-566bc8bb3a7c")
+		(at 102.87 52.07)
+		(uuid "474da001-25ee-4d6f-97a6-913dd4bdf252")
 	)
 	(no_connect
 		(at 102.87 44.45)
-		(uuid "ecc530f1-dca3-4fac-aea5-59a2d6827378")
+		(uuid "48fa580a-9fff-480e-9e42-5168147751ba")
+	)
+	(no_connect
+		(at 59.69 44.45)
+		(uuid "db17d0fe-884d-483b-912f-8435e9fd7ffb")
 	)
 	(wire
 		(pts
@@ -720,16 +712,6 @@
 			(type default)
 		)
 		(uuid "2769d2ce-addb-4298-8d5b-3df086a225fc")
-	)
-	(wire
-		(pts
-			(xy 50.8 41.91) (xy 59.69 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b363ebd-5560-4d75-ad5e-d8e58b79c4c4")
 	)
 	(wire
 		(pts
@@ -783,16 +765,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 49.53) (xy 102.87 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75af119e-eda5-4b56-8d6e-358282158caf")
-	)
-	(wire
-		(pts
 			(xy 57.15 74.93) (xy 68.58 74.93)
 		)
 		(stroke
@@ -819,37 +791,77 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "841b77e7-3b74-498c-b879-a05d9793b0ad")
+		(uuid "837470b0-2808-4e78-8a1f-e065200d126a")
 	)
 	(wire
 		(pts
-			(xy 52.07 52.07) (xy 59.69 52.07)
+			(xy 93.98 41.91) (xy 102.87 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bdcc4a4b-5db9-4a57-9d00-909722efaf02")
+		(uuid "970d431d-6000-4b2d-8d05-b20b09bc9a5e")
 	)
 	(wire
 		(pts
-			(xy 50.8 44.45) (xy 59.69 44.45)
+			(xy 52.07 46.99) (xy 59.69 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbb333f0-823c-42c5-af74-44290142966f")
+		(uuid "9f8a37f0-a1dc-437b-b032-c897421ab0ba")
 	)
 	(wire
 		(pts
-			(xy 95.25 52.07) (xy 102.87 52.07)
+			(xy 95.25 49.53) (xy 102.87 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd6c093f-f7cf-461b-8a9b-57a82d80f3a0")
+		(uuid "aaf3ffe0-dfec-4ac3-bc90-8c51f84a9ccd")
+	)
+	(wire
+		(pts
+			(xy 93.98 39.37) (xy 102.87 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40f5c11-8ce6-46c2-a889-e003b1913eb6")
+	)
+	(wire
+		(pts
+			(xy 95.25 46.99) (xy 102.87 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc94f964-4da5-4830-bf61-94eef74b0886")
+	)
+	(wire
+		(pts
+			(xy 50.8 39.37) (xy 59.69 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6cdf0cc-3056-4108-8d94-aeac69e157be")
+	)
+	(wire
+		(pts
+			(xy 50.8 41.91) (xy 59.69 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffbfa95d-eb62-4260-a11e-f33365c55b5d")
 	)
 	(label "CAN_H-out"
 		(at 57.15 77.47 180)
@@ -882,6 +894,26 @@
 		(uuid "61d54061-da8f-4188-9e9e-f178fe117380")
 	)
 	(label "CAN_H-in"
+		(at 95.25 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75273ddd-62f4-45a0-bc11-946f1f9e28c6")
+	)
+	(label "CAN_L-in"
+		(at 95.25 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f15feeb-0f38-4ca8-af3d-b050a206911c")
+	)
+	(label "CAN_H-in"
 		(at 57.15 72.39 180)
 		(effects
 			(font
@@ -901,18 +933,8 @@
 		)
 		(uuid "a1668794-f67c-47bc-b925-9d5d97fb77a3")
 	)
-	(label "CAN_H-out"
-		(at 95.25 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a4199ebc-7f6a-4e49-9389-bb289633d768")
-	)
 	(label "CAN_H-in"
-		(at 52.07 52.07 180)
+		(at 52.07 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -940,16 +962,6 @@
 			(justify right bottom)
 		)
 		(uuid "fb12fe3f-02a1-4cd3-9e15-748a68e2e9a9")
-	)
-	(label "CAN_L-out"
-		(at 95.25 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fbbceffb-f044-48f3-8281-79fc805cbe14")
 	)
 	(symbol
 		(lib_id "power:GND1")
@@ -1095,7 +1107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cd2b5f6-a8ac-4511-8ff5-f2c35e02b062")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 76.2 72.3899 0)
 			(effects
 				(font
@@ -1161,7 +1173,7 @@
 		(instances
 			(project "MPPT-IOBreakoutPCB"
 				(path "/f3e66178-a32b-47f6-9bb5-a7d10fda032a"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1177,7 +1189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "680dc948-b1f4-41b2-8341-942248c9cc73")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 67.31 44.4499 0)
 			(effects
 				(font
@@ -1243,7 +1255,74 @@
 		(instances
 			(project "MPPT-IOBreakoutPCB"
 				(path "/f3e66178-a32b-47f6-9bb5-a7d10fda032a"
-					(reference "J3")
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 93.98 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a50678bc-1dbc-4ed4-b928-bb52ed36104f")
+		(property "Reference" "#PWR01"
+			(at 97.79 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 90.17 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 93.98 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1bee3ba-15f8-4628-966d-b0d944a580e8")
+		)
+		(instances
+			(project "MPPT-IOBreakoutPCB"
+				(path "/f3e66178-a32b-47f6-9bb5-a7d10fda032a"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1320,6 +1399,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 93.98 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7952f58-5d35-4a70-af2a-53381acb01e1")
+		(property "Reference" "#PWR02"
+			(at 87.63 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 93.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4a47fd0-f5f0-4422-8aad-1ef7cc23ac84")
+		)
+		(instances
+			(project "MPPT-IOBreakoutPCB"
+				(path "/f3e66178-a32b-47f6-9bb5-a7d10fda032a"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 64.77 67.31 90)
 		(unit 1)
@@ -1388,7 +1534,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 50.8 44.45 90)
+		(at 50.8 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1397,7 +1543,7 @@
 		(fields_autoplaced yes)
 		(uuid "e538794b-aa11-4ed3-8750-2befef66cd77")
 		(property "Reference" "#PWR09"
-			(at 54.61 44.45 0)
+			(at 54.61 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,7 +1552,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 46.99 44.4499 90)
+			(at 46.99 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,7 +1561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 44.45 0)
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,7 +1570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 44.45 0)
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,7 +1579,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 50.8 44.45 0)
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7233d14-59ed-4e7c-aae8-0989921fb9cf")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 110.49 44.4499 0)
 			(effects
 				(font
@@ -1529,7 +1675,7 @@
 		(instances
 			(project "MPPT-IOBreakoutPCB"
 				(path "/f3e66178-a32b-47f6-9bb5-a7d10fda032a"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
